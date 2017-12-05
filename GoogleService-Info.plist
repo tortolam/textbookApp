@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1071037383554-1e24p0v35iuhggpl4lp5fvoo6a5ct7q9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1071037383554-1e24p0v35iuhggpl4lp5fvoo6a5ct7q9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBUoWtA5t-3f8glXrviy1xpfcbs2Zqz3M4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1071037383554</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Tortolani.Final-Project</string>
+	<key>PROJECT_ID</key>
+	<string>final-project-19613</string>
+	<key>STORAGE_BUCKET</key>
+	<string>final-project-19613.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1071037383554:ios:30a2392ec0a4f58f</string>
+	<key>DATABASE_URL</key>
+	<string>https://final-project-19613.firebaseio.com</string>
+</dict>
+</plist>

@@ -17,7 +17,6 @@ class BookDetailViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var ISBNLabel: UILabel!
     @IBOutlet weak var conditionLabel: UILabel!
-    @IBOutlet weak var imageView: UIImageView!
     
     var bookData: BookData?
     
@@ -28,7 +27,6 @@ class BookDetailViewController: UIViewController {
             priceLabel.text = "$\(bookData.price)"
             ISBNLabel.text = "\(bookData.ISBN)"
             conditionLabel.text = bookData.condition
-            imageView.image = UIImage(named: "artHistory")
         } else {
             bookData = BookData()
         }
@@ -46,14 +44,6 @@ class BookDetailViewController: UIViewController {
         showAlert(title: "Contact Seller", message: "Contact \((bookData?.postingUserID)!) for information and availability.")
     }
     
-    @IBAction func doneButtonPressed(_ sender: UIBarButtonItem) {
-        let isPrestingInAddMode = presentingViewController is UINavigationController
-        if isPrestingInAddMode {
-            dismiss(animated: true, completion: nil)
-        } else {
-            navigationController?.popViewController(animated: true)
-        }
-    }
     
     func showAlert(title: String, message: String) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
